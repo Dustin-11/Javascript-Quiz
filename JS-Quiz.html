@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="style.css">
+            <title>JS Quiz</title>
+        </head>
+        <body>
+            <div>
+                <h1 id="title">JAVASCRIPT QUIZ</h1>
+                <img src="headerPhoto.jpg" />
+            </div>
+            <ol>
+                <li id="q1">What is the most accurate definition of a variable?</li>
+                    <p><input type="radio" class="q1answers" name="q1" id="correct1" value="q1a1"><label id="test">Named storage for data</label></p>
+                    <p><input type="radio" class="q1answers" name="q1" id="q1a2" value="q1a2"><label>Numbers</label></p>
+                    <p><input type="radio" class="q1answers" name="q1" id="q1a3" value="q1a3"><label>A set of two nested functions</label></p>
+                    <p><input type="radio" class="q1answers" name="q1" id="q1a4" value="q1a4"><label>Javascript doesn't have variables</label></p>
+                <li id="q2">In Javascript, what is a block statement?</li>
+                    <p><input type="radio" class="q2answers" name="q2" id="q2a1" value="q2a1"><label>Conditional block</label></p>
+                    <p><input type="radio" class="q2answers" name="q2" id="correct2" value="q2a2"><label>Block that combines a number of statements
+                        into a single compound statement</label></p>
+                    <p><input type="radio" class="q2answers" name="q2" id="q2a3" value="q2a3"><label>Both conditional block and a single statement</label></p>
+                    <p><input type="radio" class="q2answers" name="q2" id="q2a4" value="q2a4"><label>Block that contains a single statement</label></p>
+                <li id="q3">Whcih of the following variables takes precedence over the others if the names are the same?</li>
+                    <p><input type="radio" class="q3answers" name="q3" id="q3a1" value="q3a1"><label>Global Variable</label></p>
+                    <p><input type="radio" class="q3answers" name="q3" id="correct3" value="q3a2"><label>The lcoal element</label></p>
+                    <p><input type="radio" class="q3answers" name="q3" id="q3a3" value="q3a3"><label>The two of the above</label></p>
+                    <p><input type="radio" class="q3answers" name="q3" id="q3a4" value="q3a4"><label>None of the above</label></p>
+                <li id="q4">In JavaScript, which one of the following is not considered as an error:</li>
+                    <p><input type="radio" class="q4answers" name="q4" id="q4a1" value="q4a1"><label>Syntax error</label></p>
+                    <p><input type="radio" class="q4answers" name="q4" id="q4a2" value="q4a2"><label>Missing of semicolons</label></p>
+                    <p><input type="radio" class="q4answers" name="q4" id="correct4" value="q4a3"><label>Division by zero</label></p>
+                    <p><input type="radio" class="q4answers" name="q4" id="q4a4" value="q4a4"><label>Missing of bracket</label></p>
+            </ol>
+            <input type="submit" class="submit" id="submit" value="Submit">
+            <p id="grade"></p>
+            <script src="script.js"></script>
+        </body>
+    </html>
